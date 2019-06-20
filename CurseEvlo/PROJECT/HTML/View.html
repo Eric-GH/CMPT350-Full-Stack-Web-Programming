@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Courses</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/C_View.css"/>
+    <script src="../JS/database.js" type="text/javascript"></script>
+    <script src="../JS/J_View.js" type="text/javascript"></script>
+</head>
+<body>
+<!-- 导航栏-->
+<div align="center" id="nav">
+    <!---->
+    <!--总导航栏-->
+    <ul id="mainul">
+
+        <!--Home菜单-->
+        <li id="Home"><a id="Home_Link" href="StartPage.html"><span id="Home_Text">Home</span></a></li>
+
+
+        <!--Account菜单 带下拉菜单-->
+        <li id="menu">
+            <a id="menu_Link"><span id="menu_Text">Menu</span></a>
+            <ul id="menu_ul">
+                <li id="LogIn">
+                    <a id="LogIn_Link" href="LogIn.html"><span id="LogIn_Text">LOG IN</span></a>
+                </li>
+                <li id="Signup">
+                    <a id="Signup_Link" href="Register.html"><span id="Signup_Text">SIGN UP</span></a>
+
+                </li>
+
+                <!--萨大和paws链接-->
+                <li id="uofs" >
+                    <a  id="uofs_Link" href="https://www.usask.ca/"><span id="uofs_Text">U of S</span></a>
+                </li>
+                <li id="paws" >
+                    <a  id="paws_Link" href="https://pawscas.usask.ca/"><span id="paws_Text">Paws</span></a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
+
+<!--课程名称以及原介绍-->
+<div id="Course_Info"></div>
+<!--用户的介绍和评价-->
+<div id="user_Evaluation"></div>
+
+<!--留空白行-->
+<div id="c_blank"></div>
+<!--用户添加评价的提示板
+<div id="common">
+    <ul id="common_ul">
+        <li id="common_cell_label">
+            <label id="common_label" for="common_text">
+                <span>
+                    Write Your Common Here
+                </span>
+            </label>
+        </li>
+        <li id="common_cell">
+            <form>
+                <textarea id="common_text" maxlength="10000"></textarea>
+
+            </form>
+        </li>
+        <li id="common_btn">
+            <form>
+                <input id="common_btn_real" type="button" value="SUBMIT"/>
+            </form>
+        </li>
+    </ul>
+</div>
+-->
+
+</body>
+</html>
+
+

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About</title>
+    <style>
+        html{
+            background-image: url("../PIC/login.png");
+        }
+        #nav{
+            letter-spacing: -1px;
+            text-align: center;
+            font-weight: 600;
+            font-size: 2em;
+            line-height: 1;
+            margin-left: 40%;
+            width: 60%;
+            z-index: 99;
+            position: fixed;
+            top:10px;
+            height: 30px;
+        }
+
+        #mainul{
+            padding: 0;
+            margin: 0;
+            list-style-type: none;
+            background-color: deepskyblue;
+        }
+
+        /*设置从左开始*/
+        #Home{
+            float: left;
+            position :relative;
+
+        }
+
+        #Home_Link{
+            border-radius: 30px;
+        }
+
+        #Home_Link{
+            display: block;
+            text-align: center;
+            text-decoration: none;/*不对文本设置效果 */
+            width: 125px;/*每一块的宽度*/
+            height: 35px;/*每一块的高度*/
+            color: coral;/*文字颜色 */
+            line-height: 35px;/*这是一个技巧，这里将height和line-height设置为一样的高度文字就会水平竖直居中 */
+            font-size: 17px;
+
+        }
+
+        #Home:hover a{
+            outline:none;
+            border:#8182EE 1px solid!important;
+            box-shadow: 0 0 8px #8182EE;
+        }
+
+        #wel{
+            margin-top: 100px;
+            height: 100px;
+            color: aqua;;
+        }
+
+        #text{
+            text-indent:2em;
+            width: 70%;
+            margin-left: 15%;
+            color: whitesmoke;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+<div align="center" id="nav">
+    <ul id="mainul">
+        <!--logo-->
+        <!--Home菜单-->
+        <li id="Home"><a id="Home_Link" href="StartPage.html"><span id="Home_Text">Home</span></a></li>
+
+        </li>
+    </ul>
+</div>
+<div>
+    <h1 align="center" id="wel">Welcome to Learn The Courses!</h1>
+    <p align="center" id="text">
+        This website only for Students && Teachers in University of Saskatchewan right now.<br><br>
+        In this website, you can easy find all the specific course describes from our lovely users.<br><br>
+        To start use the website, you can just click the "search" icon, then enter the course code(which you want to search)
+        to find the course.<br><br>
+        If you like to leave your own common for the course, the best way is click the menu tag, select the "Sign Up" tag, and
+        create your own account in our website, or if you already have one, you can just select "Log In" tag to log in your
+        account. After that, everytime you search the course, you can find out a leave common box at the end of the old commons,
+        that's the place you can leave your own common.<br><br><br>
+
+        Again, Thank you to use the Learn The Courses website. Hoping you have a good day!
+    </p>
+</div>
+</body>
+</html>

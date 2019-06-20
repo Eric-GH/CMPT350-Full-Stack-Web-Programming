@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="stylesheet" type="text/css" href="../CSS/Register.css" />
+</head>
+<body>
+<div class="wrapper">
+    <h1>WELCOME TO LEARN THE COURSES</h1>
+    <div class="content">
+        <div id="form_wrapper" class="form_wrapper">
+            <form class="register active">
+                <h3>Register</h3>
+                <div class="column">
+                    <div>
+                        <label id="name_label">Username:</label>
+                        <input type="text" id="s_username"/>
+                        <span class="error">This is an error</span>
+                    </div>
+
+                    <div>
+                        <label>Last Name:</label>
+                        <input type="text" id="reaLastlName" placeholder="Last Name" />
+                        <span class="error">This is an error</span>
+                    </div>
+                    <div>
+                        <label>Password:</label>
+                        <input type="password" id="s_password"  />
+                        <span class="error">This is an error</span>
+                    </div>
+
+                </div>
+                <div class="column">
+                    <div>
+                        <label>Email:</label>
+                        <input type="text"  id="Email" placeholder="xxx@mail.com" />
+                        <span class="error">This is an error</span>
+                    </div>
+
+                    <div>
+                        <label>First Name:</label>
+                        <input type="text" id="realFirstName"  placeholder="First Name" />
+                        <span class="error">This is an error</span>
+                    </div>
+                    <div>
+                        <label id="con_label">Confirm Password</label>
+                        <input type="password" id="con_pass" />
+                        <span class="error">This is an error</span>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <input type="submit" onclick="register()" value="Register Now" />
+                    <a href="LogIn.html" rel="login" class="linkform">You have an account already? Log in here</a>
+                    <div class="clear"></div>
+                </div>
+            </form>
+
+
+            <form class="login">
+                <h3>Login</h3>
+                <div>
+                    <label id = "acount_lable" for="log_account">Username:</label>
+                    <input  id = "log_account" type="text" name="message" />
+                    <span class="error">This is an error</span>
+                </div>
+                <div>
+                    <label  id = "password_lable" for="password">Password: <a href="forgot_password.html" rel="forgot_password" class="forgot linkform">Forgot your password?</a></label>
+                    <input  id = "password" type="password" name="pass" />
+                    <span class="error">This is an error</span>
+                </div>
+                <div class="bottom">
+                    <div class="remember"><input type="checkbox" /><span>Keep me logged in</span></div>
+                    <input type="submit" value="Login" onclick="LogIn()" />
+                    <a href="Register.html" rel="register" class="linkform">You don't have an account yet? Register here</a>
+                    <div class="clear"></div>
+                </div>
+            </form>
+
+
+
+
+            <form class="forgot_password">
+                <h3>Forgot Password</h3>
+                <div>
+                    <label>Username or Email:</label>
+                    <input type="text" />
+                    <span class="error">This is an error</span>
+                </div>
+                <div class="bottom">
+                    <input type="submit" value="Send reminder" />
+                    <a href="LogIn.html" rel="login" class="linkform">Suddenly remebered? Log in here</a>
+                    <a href="Register.html" rel="register" class="linkform">You don't have an account? Register here</a>
+                    <div class="clear"></div>
+                </div>
+            </form>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+
+
+<!-- The JavaScript -->
+<script type="text/javascript" src="../JS/jquery-1.4.4.min.js"></script>
+<script type="text/javascript" src="../JS/Register.js">
+
+</script>
+</body>
+</html>

@@ -1,0 +1,184 @@
+
+
+html{
+    height: 100%;
+    background-image: url("../PIC/personal-back.png");
+    background-size: cover;
+
+}
+
+
+/*导航栏设计*/
+#nav{
+    margin-top: 0;
+    letter-spacing: -1px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 2em;
+    line-height: 1;
+    margin-left: 5%;
+    z-index: 99;
+    position: fixed;
+    top:0;
+    width: 90%;
+    height: 30px;
+
+}
+
+#mainul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    background-color: deepskyblue;
+}
+
+/*设置从左开始*/
+#Home{
+    float: left;
+    position :relative;
+
+}
+#menu{
+    float: right;
+    position :relative;
+}
+
+#Home_Link{
+    border-radius: 30px;
+}
+
+#menu_Link{
+    -webkit-border-top-right-radius: 30px;
+    -webkit-border-top-left-radius: 30px;
+}
+#Home_Link,#menu_Link{
+    display: block;
+    text-align: center;
+    text-decoration: none;/*不对文本设置效果 */
+    width: 125px;/*每一块的宽度*/
+    height: 35px;/*每一块的高度*/
+    color: white;/*文字颜色 */
+    line-height: 35px;/*这是一个技巧，这里将height和line-height设置为一样的高度文字就会水平竖直居中 */
+    font-size: 17px;
+
+}
+
+#Home:hover a, #menu:hover a{
+    outline:none;
+    border:#8182EE 1px solid!important;
+    box-shadow: 0 0 8px #8182EE;
+
+}
+
+#menu_ul{
+    display: none;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+
+}
+#menu:hover ul{
+
+    display: block;
+    position: absolute;
+    top: 35px;
+    left: 0;
+    width: 125px;
+}
+
+
+#paws_Link{
+    -webkit-border-bottom-right-radius: 30px;
+    -webkit-border-bottom-left-radius: 30px;
+}
+#menu:hover ul li a{
+
+    display: block;
+    color: white;
+    width: 125px;/*每一块的宽度*/
+    height: 35px;/*每一块的高度*/
+    line-height: 35px;/*这是一个技巧，这里将height和line-height设置为一样的高度文字就会水平竖直居中 */
+    font-size: 17px;
+
+
+
+}
+
+#menu:hover ul li a:hover{
+    outline:none;
+    border:#ef3f52 1px solid!important;
+    box-shadow: 0 0 8px #ef3f52;
+}
+
+
+
+
+
+
+#personal{
+    height: 100%;
+    width: 100%;
+    margin-top: 100px;
+    margin-left: 30%;
+    color: beige;
+
+}
+#personal table td{
+    height: 50px;
+    line-height: 50px;
+}
+
+.label_class{
+    width: 120px;
+
+}
+
+.input_class{
+    width: 200px;
+}
+
+#change table td{
+    height: 50px;
+    line-height: 50px;
+}
+
+
+#change{
+    height: 100%;
+    width: 100%;
+    margin-left: 25%;
+    margin-top: 100px;
+    display: none;
+    color: beige;
+}
+
+.label_in{
+    width: 200px;
+}
+
+
+.c_big{
+    appearance:button;
+    -moz-appearance:button; /* Firefox */
+    -webkit-appearance:button; /* Safari 和 Chrome */
+    box-sizing:border-box;
+    -moz-box-sizing:border-box; /* Firefox */
+    -webkit-box-sizing:border-box; /* Safari */;
+    padding: 0;
+    margin-top: 10px;
+    width: 120px;
+    height: 30px;
+}
+.back{
+
+    appearance:button;
+    -moz-appearance:button; /* Firefox */
+    -webkit-appearance:button; /* Safari 和 Chrome */
+    box-sizing:border-box;
+    -moz-box-sizing:border-box; /* Firefox */
+    -webkit-box-sizing:border-box; /* Safari */;
+    padding: 0;
+    margin-top: 10px;
+    width: 50px;
+    height: 30px;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/C_Personal.css"/>
+    <script src="../JS/database.js" type="text/javascript"></script>
+    <script src="../JS/J_Personal.js" type="text/javascript"></script>
+</head>
+
+
+<body>
+
+
+
+<!-- 导航栏-->
+<div align="center" id="nav">
+    <!---->
+    <!--总导航栏-->
+    <ul id="mainul">
+
+        <li id="Home"><a id="Home_Link" href="javascript: return false;" onclick="backMain()"><span id="Home_Text">Home</span></a></li>
+        <!--Account菜单 带下拉菜单-->
+        <li id="menu">
+            <a id="menu_Link"><span id="menu_Text">Menu</span></a>
+            <ul id="menu_ul">
+                <li id="LogOut">
+                    <a id="LogOut_Link" href="StartPage.html"><span id="LogOut_Text">Log Out</span></a>
+                </li>
+                <!--萨大和paws链接-->
+                <li id="uofs" >
+                    <a  id="uofs_Link" href="https://www.usask.ca/"><span id="uofs_Text">U of S</span></a>
+                </li>
+                <li id="paws" >
+                    <a  id="paws_Link" href="https://pawscas.usask.ca/"><span id="paws_Text">Paws</span></a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
+
+<!--个人信息-->
+<div id="personal">
+    <table border="0">
+        <tr>
+            <td align="right" class="label_class"><label><span>User Name: </span></label></td>
+            <td align="center" class="input_class"><label><span id="name_value"></span></label></td>
+        </tr>
+        <tr>
+            <td align="right" class="label_class"><label><span>Real Name:</span></label></td>
+            <td align="center" class="input_class"><label><span id="real_value"></span></label></td>
+        </tr>
+        <tr>
+            <td align="center" class="label_class"><label><span>E-Mail: </span></label></td>
+            <td align="center" class="input_class"><label><span id="email_value"></span></label></td>
+        </tr>
+        <tr>
+            <td class="label_class"><input class="c_big" type="button" value="Change Password" onclick="changePass()"/></td>
+            <td align="right" class="input_class"><input class="back" type="button" value="Back" onclick="backToCourse()"/></td>
+        </tr>
+    </table>
+</div>
+
+
+<div id="change">
+    <table border="0">
+        <tr>
+            <td align="right" class="label_in"><label><span>Old Password: </span></label></td>
+            <td align="left" class="input_class"><input type="password" id="old_pass"/></td>
+        </tr>
+        <tr>
+            <td align="right" class="label_in"><label><span>New Password:</span></label></td>
+            <td align="left" class="input_class"><input type="password" id="new_pass"/></td>
+        </tr>
+        <tr>
+            <td align="right" class="label_in"><label><span>Confirm Password: </span></label></td>
+            <td align="left" class="input_class"><input type="password" id="confirm_pass"/></td>
+        </tr>
+        <tr>
+            <td align="right" ><span id="message"></span></td>
+        </tr>
+        <tr>
+            <td align="center" class="label_class"><input class="back" type="button" value="Back" onclick="backInfo()"/></td>
+            <td align="right" class="input_class"><input class="c_big" type="button" value="Confirm Change" onclick="ChangePassword()"/></td>
+        </tr>
+    </table>
+</div>
+
+
+
+</body>
+</html>
+

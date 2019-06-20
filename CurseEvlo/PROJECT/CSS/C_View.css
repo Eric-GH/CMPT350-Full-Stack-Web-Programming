@@ -1,0 +1,314 @@
+html {
+    height: 100%;
+
+}
+body{
+    background-image: url("../PIC/beijing.jpg");
+}
+
+
+
+/*导航栏设计*/
+#nav{
+    letter-spacing: -1px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 2em;
+    line-height: 1;
+    margin-left: 8%;
+    width: 90%;
+}
+
+#mainul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    background-color: deepskyblue;
+}
+
+/*设置从左开始*/
+#Home{
+    float: left;
+    position :relative;
+
+}
+#menu{
+    float: right;
+    position :relative;
+}
+
+#Home_Link{
+    border-radius: 30px;
+}
+
+#menu_Link{
+    -webkit-border-top-right-radius: 30px;
+    -webkit-border-top-left-radius: 30px;
+}
+#Home_Link,#menu_Link{
+    display: block;
+    text-align: center;
+    text-decoration: none;/*不对文本设置效果 */
+    width: 125px;/*每一块的宽度*/
+    height: 35px;/*每一块的高度*/
+    color: black;/*文字颜色 */
+    line-height: 35px;/*这是一个技巧，这里将height和line-height设置为一样的高度文字就会水平竖直居中 */
+    font-size: 17px;
+
+}
+
+#Home:hover a, #menu:hover a{
+    outline:none;
+    border:#8182EE 1px solid!important;
+    box-shadow: 0 0 8px #8182EE;
+
+}
+
+#menu_ul{
+    display: none;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+
+}
+#menu:hover ul{
+
+    display: block;
+    position: absolute;
+    top: 35px;
+    left: 0;
+    width: 125px;
+}
+
+
+#paws_Link{
+    -webkit-border-bottom-right-radius: 30px;
+    -webkit-border-bottom-left-radius: 30px;
+}
+#menu:hover ul li a{
+
+    display: block;
+    color: black;
+    width: 125px;/*每一块的宽度*/
+    height: 35px;/*每一块的高度*/
+    line-height: 35px;/*这是一个技巧，这里将height和line-height设置为一样的高度文字就会水平竖直居中 */
+    font-size: 17px;
+
+
+
+}
+
+
+#menu:hover ul li a:hover{
+    outline:none;
+    border:#ef3f52 1px solid!important;
+    box-shadow: 0 0 8px #ef3f52;
+}
+
+
+
+/*course info*/
+#Course_Info{
+    width: 100%;
+    height: 321px;
+
+}
+
+.c_border{
+    height: 321px;
+    width: 702px;
+    margin-left:20%;
+    border-left: 1px solid #B3D997;
+    border-right: 1px solid #B3D997;
+    border-bottom: 1px solid #B3D997;
+}
+
+
+.course_ul{
+    padding: 0;
+    margin-left: 15%;
+    width: 500px;
+    height: 320px;
+    list-style-type: none;
+
+
+}
+
+.c_code, .c_name{
+    height: 60px;
+    width: 500px;
+    line-height: 60px;
+    text-align: center;
+    border-bottom: 5px solid red;
+}
+
+.c_discrib{
+    padding-top: 10px;
+    height: 160px;
+    width: 500px;
+
+    text-indent:40px;
+}
+
+.c_discrib_text{
+    height: 160px;
+    width: 180px;
+}
+
+
+
+
+/*用户评价*/
+
+#user_Evaluation{
+    width: 100%;
+    margin-top: 20px;
+
+}
+
+.u_border{
+    width: 702px;
+    height: 151px;
+    margin-left:20%;
+    border-left: 1px solid #B3D997;
+    border-right: 1px solid #B3D997;
+    border-bottom: 1px solid #B3D997;
+}
+
+.u_table{
+    width: 702px;
+    height: 120px;
+}
+
+.u_name{
+    width: 201px;
+    height: 100px;
+
+}
+
+.u_discrib{
+    width: 501px;
+    height: 100px;
+
+}
+
+.u_time{
+    width: 201px;
+    height: 21px;
+
+}
+
+
+.blank{
+    width: 100%;
+    height: 220px;
+}
+.blank_label{
+    width: 100%;
+    height: 220px;
+}
+
+
+
+
+/*写评价的地方
+#common{
+    width: 100%;
+    height: 205px;
+    position: fixed;
+    bottom: 15px;
+    left: 0;
+    z-index:99;
+}
+
+#common_ul{
+    padding: 0;
+    width: 700px;
+    height: 205px;
+    list-style-type: none;
+    margin-left: 20%;
+}
+
+
+#common_label,#common_cell_label{
+    padding: 0;
+    margin: 0;
+    width: 700px;
+    height: 25px;
+    text-align: center;
+}
+#common_cell,#common_text{
+    padding: 0;
+    margin: 0;
+    width: 695px;
+    height: 125px;
+    font-size: 20px;
+    font-family: "Times New Roman", serif;
+}
+
+#common_btn{
+    width: 100px;
+    height: 50px;
+    float: right;
+}
+#common_btn_real{
+    appearance:button;
+    -moz-appearance:button;
+    -webkit-appearance:button;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    padding: 0;
+    margin-top: 10px;
+    width: 100px;
+    height: 40px;
+}
+
+
+
+
+
+#u_ul{
+    padding: 0;
+    margin: 0;
+    width: 700px;
+    height: 150px;
+    list-style-type: none;
+}
+
+#u_ul li{
+    float: left;
+    position :relative;
+
+}
+
+#u_discrib{
+
+    width: 498px;
+    height: 150px;
+    border-left: 1px solid red;
+    text-indent:40px;
+}
+
+#u_acount{
+    width: 200px;
+    height: 100px;
+    border-bottom: 1px solid red;
+}
+
+#u_date_ul{
+    display: block;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    top: 100px;
+    left: 0;
+    width: 200px;
+    height: 50px;
+    list-style-type: none;
+}
+
+#u_date{
+
+}
+*/
