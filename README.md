@@ -7,6 +7,10 @@ User can write & view comments of the course which they have taken. The website 
 1. To simply view the HTML files, user can download all the HTML files in same directory, and open them with any browser (Recommend Chrome).
 2. To test all the features, download all folders in the same directory, and run with **StartPage.html** first.
 
+## Languages Use
+Front-end: HTML,CSS, JavaScript
+Server: Node.js
+Database: MySQL
 ## Example of Features
 
 <br></br>
